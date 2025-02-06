@@ -1,0 +1,112 @@
+* {
+
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fhd%2520background%2F&psig=AOvVaw1jz7xFA2wQBQITO4bRLsiI&ust=1738894043761000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMig36X7rYsDFQAAAAAdAAAAABAE");
+}
+
+p {
+    background-color: rgb(213, 201, 224);
+}
+
+#edu {
+    color: blue;
+}
+
+/*id selector*/
+.list {
+    background-color: brown;
+}
+
+/*class selector*/
+
+#p {
+    text-align: center;
+    color: rgb(112, 62, 62);
+    background-color: black;
+}
+
+/* adjecnt children*/
+h1~p {
+    color: rgb(201, 15, 15);
+}
+
+h1+p {
+    background-color: black;
+}
+
+p.article {
+    background-color: pink;
+    font-size: larger;
+    height: 200px;
+}
+
+/*attribute selector  we can used this way in input type*/
+input[type="text"] {
+    height: 80px;
+    border-radius: 4px;
+}
+
+/*psudeo selector*/
+psuedo::before {
+    width: 50px;
+    background-color: rgb(223, 100, 29);
+    content: "before";
+}
+
+psuedo::after {
+    width: 50px;
+    background-color: rgb(105, 73, 55);
+    content: "text";
+}
+
+psued::after {
+    width: 50px;
+    background-color: rgb(105, 73, 55);
+    content: "text";
+}
+
+psuedo::first-letter {
+    width: 50px;
+    background-color: rgb(105, 73, 55);
+
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:focus {
+    background-color: blue;
+}
+
+nitem:nth-child(3) {
+    color: rgb(247, 237, 237);
+}
+
+nitem:nth-child(7) {
+    color: rgb(247, 237, 237);
+}
+
+nitem:nth-child(even) {
+    color: rgb(247, 237, 237);
+}
+
+nitem:nth-child(odd) {
+    color: rgb(182, 8, 8);
+}
+
+td:nth-child(odd) {
+    background-color: aqua;
+}
+
+td:hover {
+    background-color: black;
+    color: azure;
+}
+
+table {
+    border: 4px solid gray;
+}
+
+.css {}
+
+/*3841 4891 2491 3841*/
